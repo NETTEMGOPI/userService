@@ -14,8 +14,6 @@ public class EmailEventProducer {
     @Autowired
     private KafkaTemplate<String, String> kafkaTemplate;
 
-//    @Autowired
-//    private Users users;
 
     private final ObjectMapper objectMapper = new ObjectMapper();
 
