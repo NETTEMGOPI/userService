@@ -10,7 +10,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/company")
 //@CrossOrigin(origins = "*") // Allow CORS for frontend form
-@CrossOrigin(origins = {"http://18.188.100.100"/*, "https://yourdomain.com"*/})
+@CrossOrigin(origins = {"http://18.222.145.215"/*, "https://yourdomain.com"*/})
 public class CompanyController {
 
 	@Autowired
